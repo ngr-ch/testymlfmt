@@ -21,7 +21,7 @@ name: Build and deploy JAR app to Azure Web App
 
 env:
   AZURE_WEBAPP_NAME: myapp123    # set this to the name of your Azure Web App
-  JAVA_VERSION: '1.8'                  # set this to the Java version to use
+  JAVA_VERSION: '8.0.252+9.1'                  # set this to the Java version to use
   DISTRIBUTION: 'adopt'                  # set this to the Java distribution
 
 on:
